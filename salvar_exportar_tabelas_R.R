@@ -23,7 +23,7 @@ write.csv2(mtcars, file = "mtcars.csv")
 
 # Salvar arquivo xlsx ----------------------------------------------------------------------------------------------------------------------
 
-## Necessário baixar o pacote "xlsx"
+## Primeiro é necessário baixar o pacote "xlsx"
 install.packages("xlsx")
 library("xlsx")
 
