@@ -20,3 +20,12 @@ write.csv(mtcars, file = "mtcars.csv")
 # Para salvar a tabela criada como arquivo csv separado por ";" e vírgula "," como decimal -------------------------------------------------
 
 write.csv2(mtcars, file = "mtcars.csv")
+
+# Salvar arquivo xlsx ----------------------------------------------------------------------------------------------------------------------
+
+## Necessário baixar o pacote "xlsx"
+install.packages("xlsx")
+library("xlsx")
+
+write.xlsx(mtcars, file = "myworkbook.xlsx", 
+           sheetName = "MTCARS", append = TRUE)
